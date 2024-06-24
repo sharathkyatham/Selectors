@@ -1,0 +1,67 @@
+img{
+    width: 300px;
+    border:2px solid gray ;
+}
+
+.cricketers{
+    background-color: red;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 50px;
+
+}
+
+.orange{
+    background-color: orange;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 100%;
+
+
+}
+img:hover{
+  background-color: cyan;
+  
+    filter: drop-shadow(10px 10px 10px grey);
+}
+
+.yellow{
+   background-color: yellow;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px;
+}
+.yellow:hover{
+    /* background-color:cyan;*/
+filter: drop-shadow(10px 10px 10px grey);
+filter: grayscale(5);
+}
+.orange:hover{
+    /* background-color:cyan;*/
+filter: box-shadow(10px 10px 10px grey);
+}
+
+
+#HD{
+    background-color: blue;
+    text-align: center;
+}
+
+.yell:hover{
+    
+   filter: blur(5px);
+}
+
+.yell11:hover{
+    filter: drop-shadow(10px 10px 10px black);
+  
+}
+
+
+.yell22:hover{
+    background-color:red;
+  
+    box-shadow: 10px 10px 10px;
+   filter: invert(100%);
+}
+
+
